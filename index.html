@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="shash.svg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <!-- <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li> -->
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Portfolio</h1>
+          <p>
+            Self taught front end developer with good knowledge of development
+            at using JavaScript, CSS, and HTML to design the UI and deploy it
+            effectively in applications.
+          </p>
+          <a href="#contact" class="scroll-link btn btn-white">Contact me</a>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2 style="padding-top: 20px">about <span>Me</span></h2>
+
+        <p
+          style="
+            text-align: center;
+            /* word-spacing: 10px; */
+            /* padding: 50px; */
+            line-height: 30px;
+            color: grey;
+          "
+        >
+          Hi there! My name is SHASHIDHAR B V, and I'm a budding web developer
+          based in Bengaluru. I've always been fascinated by the creative and
+          technical aspects of web development, and I'm excited to share my
+          journey with you. Web development is more than just a hobby for me -
+          it's my passion. I love the endless possibilities of creating websites
+          and web applications.
+        </p>
+        <p
+          style="
+            text-align: center;
+            /* word-spacing: 10px; */
+            /* padding: 0px 50px; */
+            line-height: 30px;
+            color: grey;
+          "
+        >
+          As a beginner web developer, I've gained proficiency in HTML, CSS, and
+          JavaScript, React.js, Figma and I'm currently expanding my knowledge
+          in front-end technologies. I've also completed several small projects,
+          including building responsive websites and developing interactive web
+          applications.
+        </p>
+      </div>
+    </section>
+    <!-- services -->
+    <!-- <section id="services" class="section">
+      <div class="title">
+        <h2>our <span>services</span></h2>
+      </div>
+    </section> -->
+    <!-- contact -->
+    <section id="contact" class="section">
+      <div class="title">
+        <h2 style="padding-top: 60px">Contact <span>Me</span></h2>
+        <p style="padding: 30px; text-align: center">
+          If You are looking to get hold to me,you can send me an Email at
+          <span>mr.shashidhar30@gmail.com</span>
+        </p>
+        <p style="padding: 30px; text-align: center">
+          Yan can also reach me on
+
+          <a
+            class="aa"
+            style="text-decoration: none; color: inherit; color: #8fd1d4"
+            href="https://www.linkedin.com/in/shashidhar30/"
+            >Linkedin.</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy;
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
